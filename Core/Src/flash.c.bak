@@ -1,0 +1,78 @@
+/* USER CODE BEGIN Header */
+#include "config_flash.h"
+#include "welder.h"
+
+static uint32_t save_requested_time = 0;
+static uint8_t  save_pending = 0;
+
+void Config_Load(void) {
+    FlashConfig_t *flash_data = (FlashConfig_t*)FLASH_SETTING_ADDRESS;
+
+    if (flash_data->magic == CONFIG_MAGIC_NUMBER) {
+        current_selected_mode = flash_data->welder_mode;
+        Welder.current_setpoint = flash_data->current_setpoint;
+        cfg_hot_start_pct = flash_data->hot_start_pct;
+        cfg_hot_start_time_ms = flash_data->hot_start_time_ms;
+        cfg_arc_force_pct = flash_data->arc_force_pct;
+    } else {
+        current_selected_mode = 0; // MMA дефолт
+        Welder.current_setpoint = 90.0f;
+        cfg_hot_start_pct = 40.0f;
+        cfg_hot_start_time_ms = 400;
+        cfg_arc_force_pct = 30.0f;
+        Config_Save();
+    }
+}
+
+void Config_Save(void) {
+    if (Welder.state == STATE_WELDING || Welder.state == STATE_HOT_START) return; // Не пишем во время сварки
+
+    FlashConfig_t local_config = {
+        .magic = CONFIG_MAGIC_NUMBER,
+        .welder_mode = current_selected_mode,
+        .current_setpoint = Welder.current_setpoint,
+        .hot_start_pct = cfg_hot_start_pct,
+        .hot_start_time_ms = cfg_hot_start_time_ms,
+        .arc_force_pct = cfg_arc_force_pct
+    };
+
+    HAL_FLASH_Unlock();
+    FLASH_EraseInitTypeDef erase_struct = {
+        .TypeErase = FLASH_TYPEERASE_SECTORS,
+        .VoltageRange = FLASH_VOLTAGE_RANGE_3,
+        .Sector = FLASH_SETTING_SECTOR,
+        .NbSectors = 1
+    };
+
+    uint32_t sector_error = 0;
+    if (HAL_FLASHEx_Erase(&erase_struct, &sector_error) != HAL_OK) {
+        HAL_FLASH_Lock();
+        return;
+    }
+
+    uint32_t *source = (uint32_t*)&local_config;
+    uint32_t dest = FLASH_SETTING_ADDRESS;
+    uint32_t words_to_write = sizeof(FlashConfig_t) / 4;
+
+    for (uint32_t i = 0; i < words_to_write; i++) {
+        if (HAL_FLASH_Program(FLASH_TYPEPROGRAM_WORD, dest, source[i]) == HAL_OK) {
+            dest += 4;
+        } else {
+            break;
+        }
+    }
+    HAL_FLASH_Lock();
+    save_pending = 0;
+}
+
+void Config_Request_Save(void) {
+    save_requested_time = HAL_GetTick();
+    save_pending = 1;
+}
+
+void Config_Check_Timeout(void) {
+    if (save_pending && (HAL_GetTick() - save_requested_time > 3000)) {
+        Config_Save(); // Сохраняем строго через 3 секунды тишины энкодера
+    }
+}
+/* USER CODE END Header */

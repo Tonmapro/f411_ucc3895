@@ -1,0 +1,9 @@
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:115:13:OLED_Start_DMA_Transfer	16	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:28:6:OLED_Init	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:71:14:OLED_GetStatus	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:75:6:OLED_Clear	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:82:6:OLED_DrawPixel	4	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:97:6:OLED_Swap_Buffers	4	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:144:6:OLED_DMA_IRQHandler_Callback	4	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:170:10:OLED_Get_BackBuffer_Ptr	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/oled_ssd1306.c:180:6:OLED_SSD1306_Draw_String	48	static

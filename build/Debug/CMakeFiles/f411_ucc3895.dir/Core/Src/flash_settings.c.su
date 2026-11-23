@@ -1,0 +1,8 @@
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:198:17:FSet_WaitBusy_FeedIWDG	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:215:17:FSet_EraseSector_Ram	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:237:17:FSet_ProgramWords_Ram.constprop	16	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:155:29:FSet_Slot_Validate	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:297:9:Flash_Settings_Have_Valid_Slot	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:302:10:Flash_Settings_Get_Weld_Current	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:307:6:Flash_Settings_Restore	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/flash_settings.c:345:25:Flash_Settings_Save	56	static

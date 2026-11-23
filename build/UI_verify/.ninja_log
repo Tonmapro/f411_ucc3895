@@ -1,0 +1,26 @@
+# ninja log v5
+6	163	1789645044635307203	CMakeFiles/f411_ucc3895.dir/Core/Src/sysmem.c.obj	53e86b2cf41fccee
+163	491	1789645044963301730	CMakeFiles/f411_ucc3895.dir/Core/Src/syscalls.c.obj	8c3e0af38340e80f
+3	588	1789645045059300128	CMakeFiles/f411_ucc3895.dir/Core/Src/stm32f4xx_it.c.obj	602ab9007f6bce0
+491	601	1789645045075299861	CMakeFiles/f411_ucc3895.dir/startup_stm32f411xe.s.obj	60771c8ab7ffb22b
+3	1253	1789645045719289116	CMakeFiles/f411_ucc3895.dir/Core/Src/main.c.obj	8006719f28e0132d
+602	1472	1789645045943285378	CMakeFiles/f411_ucc3895.dir/Core/Src/config.c.obj	b1e2cdb15823bc15
+588	1514	1789645045987284644	CMakeFiles/f411_ucc3895.dir/Core/Src/cooling.c.obj	89e7aa75b834b9ac
+1253	1842	1789645046315279171	CMakeFiles/f411_ucc3895.dir/Core/Src/config_flash.c.obj	9b34ae3722d508b0
+1472	2108	1789645046579274766	CMakeFiles/f411_ucc3895.dir/Core/Src/encoder.c.obj	815292a5038b0af4
+1514	2199	1789645046671273231	CMakeFiles/f411_ucc3895.dir/Core/Src/hwd_ucc3895.c.obj	aa29dbf776fd257
+1842	2257	1789645046731272230	CMakeFiles/f411_ucc3895.dir/Core/Src/mma_fsm.c.obj	2acd9fd97eb6b5ae
+2257	2798	1789645047271263220	CMakeFiles/f411_ucc3895.dir/Core/Src/signal_processing.c.obj	b0bc63d1304ec714
+2108	2837	1789645047307262619	CMakeFiles/f411_ucc3895.dir/Core/Src/oled_ssd1306.c.obj	84a33e7116c95ee3
+2199	2855	1789645047327262285	CMakeFiles/f411_ucc3895.dir/Core/Src/regulator.c.obj	fb3f3ad88213f1e0
+2855	3125	1789645047599257747	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj	cebf0f72a2bd7042
+2837	3193	1789645047667256612	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj	7d4b9c21fdf54fa3
+3125	3470	1789645047943252007	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj	82d43e99d59ff942
+2798	3490	1789645047963251673	CMakeFiles/f411_ucc3895.dir/Core/Src/ui_manager.c.obj	736eadd6bb172a15
+3193	3573	1789645048047250272	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj	ed81ae1974440e5d
+3573	3799	1789645048271246534	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj	785d759746b8c60
+3490	3945	1789645048419244065	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj	72e585e1b195f1d4
+3470	3992	1789645048455243464	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj	13c60571074305e7
+3799	4146	1789645048611240861	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj	f83c2d098d59587d
+3945	4432	1789645048903235989	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj	113970f0dbd93fa3
+4432	4714	1789645049183231317	f411_ucc3895.elf	8c56bc47cc4c593f

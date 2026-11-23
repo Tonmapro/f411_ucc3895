@@ -1,0 +1,8 @@
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:49:6:Signal_Processing_Init	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:89:6:Signal_Processing_DMA_Irq	4	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:115:6:Signal_Processing_Update	56	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:162:6:Signal_Processing_Publish	4	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:173:7:Get_Internal_Channel	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:180:7:Get_Filtered_Code	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:189:9:Signal_Processing_Is_Data_Valid	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/signal_processing.c:195:6:Signal_Processing_Get_Snapshot	4	static

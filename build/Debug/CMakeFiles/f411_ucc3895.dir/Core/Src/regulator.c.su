@@ -1,0 +1,4 @@
+/home/omnamo/Documents/f411_ucc3895/Core/Src/regulator.c:7:6:PI_Regulator_Init	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/regulator.c:17:6:PI_Regulator_Set_Setpoint	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/regulator.c:23:6:PI_Regulator_Reset	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/regulator.c:28:7:PI_Regulator_Update	0	static

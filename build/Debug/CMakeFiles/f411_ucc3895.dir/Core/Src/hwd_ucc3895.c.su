@@ -1,0 +1,7 @@
+/home/omnamo/Documents/f411_ucc3895/Core/Src/hwd_ucc3895.c:9:6:UCC3895_Init	72	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/hwd_ucc3895.c:92:6:UCC3895_Enable	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/hwd_ucc3895.c:106:6:UCC3895_Disable	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/hwd_ucc3895.c:117:6:UCC3895_Set_Control_Voltage	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/hwd_ucc3895.c:132:9:UCC3895_Is_Output_Enabled	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/hwd_ucc3895.c:141:9:UCC3895_Is_Fault_Active	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/hwd_ucc3895.c:153:6:UCC3895_Clear_Fault	0	static

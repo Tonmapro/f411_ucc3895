@@ -1,0 +1,9 @@
+/home/omnamo/Documents/f411_ucc3895/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:273:22:LL_GPIO_SetPinMode	4	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/main.c:310:10:Thermal_Control_Process.part.0	16	static
+/home/omnamo/Documents/f411_ucc3895/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:484:22:LL_GPIO_SetPinPull.constprop	0	static
+/home/omnamo/Documents/f411_ucc3895/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm4.h:1861:26:NVIC_EncodePriority.constprop	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/main.c:77:10:System_GetTick	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/main.c:310:10:Thermal_Control_Process	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/main.c:448:6:SystemClock_Config	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/main.c:87:5:main	32	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/main.c:503:6:Error_Handler	0	static

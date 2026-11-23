@@ -1,0 +1,6 @@
+/home/omnamo/Documents/f411_ucc3895/Core/Src/ui_manager.c:317:17:UI_Menu_Item_Value	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/ui_manager.c:514:16:UI_Fault_FitScale	0	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/ui_manager.c:126:13:UI_PrintBigStr_Center	72	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/ui_manager.c:470:13:UI_Draw_Status_Line	16	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/ui_manager.c:628:6:UI_Manager_Init	8	static
+/home/omnamo/Documents/f411_ucc3895/Core/Src/ui_manager.c:636:6:UI_Manager_Update	80	static
